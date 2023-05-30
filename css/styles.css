@@ -425,12 +425,14 @@ img {
   fill: currentColor;
 }
 
-.customer-link:hover {
+.customer-link:hover,
+.customer-link:focus {
   border-color: var(--pressed-state);
   color: var(--pressed-state);
 }
 
-.customer-link:hover .customer-icon {
+.customer-link:hover .customer-icon,
+.customer-link:focus .customer-icon {
   border-color: var(--pressed-state);
   fill: var(--pressed-state);
 }
